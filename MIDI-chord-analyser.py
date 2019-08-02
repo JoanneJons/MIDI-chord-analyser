@@ -59,6 +59,7 @@ running = False
 def start_analysis():
     global running
     running = True
+    print ("Running ...")
     print ("Press Ctrl-C to exit")
 
 def task():
